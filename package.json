@@ -4,10 +4,10 @@
   "description": "A test development environment with a WordPress plugin and a Node API",
   "main": "index.js",
   "scripts": {
-    "start": "cd wp-plugin-test && npm run wp-env start && cd ../node-api-test && npm start",
+    "start": "wp-env start && cd node-api-test && npm start",
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "cd node-api-test && npm install && cd ../wp-plugin-test && npm install",
-    "stop": "cd wp-plugin-test && npm run wp-env stop"
+    "stop": "wp-env stop"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/joonasnuutinen/dev-env-test/issues"
   },
-  "homepage": "https://github.com/joonasnuutinen/dev-env-test#readme"
+  "homepage": "https://github.com/joonasnuutinen/dev-env-test#readme",
+  "devDependencies": {
+    "@wordpress/env": "^4.1.0"
+  }
 }
