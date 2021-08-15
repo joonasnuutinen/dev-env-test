@@ -6,7 +6,8 @@
   "scripts": {
     "start": "cd wp-plugin-test && npm run wp-env start && cd ../node-api-test && npm start",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "cd node-api-test && npm install && cd ../wp-plugin-test && npm install"
+    "postinstall": "cd node-api-test && npm install && cd ../wp-plugin-test && npm install",
+    "stop": "cd wp-plugin-test && npm run wp-env stop"
   },
   "repository": {
     "type": "git",

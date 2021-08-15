@@ -15,3 +15,13 @@ This clones the repository as well as two Git submodules: `node-api-test`and `wp
 ```
 npm start
 ```
+
+## Stop the development environment
+
+First, press `Ctrl/Cmd + C` to stop the Node.js server. Then, run
+
+```
+npm stop
+```
+
+to stop the WordPress server.
