@@ -1,0 +1,6 @@
+[submodule "wp-plugin-test"]
+	path = wp-plugin-test
+	url = git@github.com:joonasnuutinen/wp-plugin-test.git
+[submodule "node-api-test"]
+	path = node-api-test
+	url = git@github.com:joonasnuutinen/node-api-test.git
